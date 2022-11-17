@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrays</title>
+</head>
+<body>
+    <script>
+
+    //let arr = new Array;
+    /* let arr = [1, 'str', true];
+    let arr1 = arr;
+    arr1[2] = false;
+    console.log(arr);
+    console.log(arr1);
+    //console.log(arr.length); */
+    //console.log(arr1[2]);
+
+    /* let arr = [1, 'str', true];
+    console.log(Array.isArray('123')); //проверяет массив ли это
+    //arr[50] = 123; 
+
+    arr.push(123); //добавляет элемент в конец массива
+    console.log(arr.pop());
+    console.log(arr.shift());
+    arr.unshift('hi');
+
+    console.log(arr); */
+    
+
+    /* let arr2 = ['zxc', 'vbn', 'asd'];
+    console.log(arr2); */
+
+    /*console.log(arr2);
+    arr2.splice(0, 1); //удаление  
+    console.log(arr2);
+    arr2.splice(0, 1, 'qwe'); //замена
+    console.log(arr2);
+    arr2.splice(0, 0, 'rty') //добавление в начало
+    console.log(arr2); */
+
+
+    /* let arr3 = arr2.slice(); //копирование массива в другой
+    console.log(arr2);
+    console.log(arr3);
+    arr3[2] = 'uio'; //замена значения
+    console.log(arr2);
+    console.log(arr3);  */
+    //let arr3 = arr2.slice(0, 2); //забирает во второй массив 0 и 1 индексы
+
+    //console.log(arr2.concat([123, 456, 789], 'qwe', ['asd, fgh']))
+
+    //console.log(arr2.indexOf('zxc')); //выводит индекс, если нету - -1
+    //console.log(arr2.includes('asd')); //проверяет наличие эл в м, t/f
+
+    /* let arr4 = [1, 2, 3, 4, 5]
+    console.log(arr4); */
+
+    /* for(let i = 0; i < arr4.length; i++) {
+        arr4[i] = arr4[i] + 1;
+        console.log(arr4[i]);
+    } */
+
+    /* console.log(arr4);
+
+    for(let item of arr4) {
+        console.log(item++);
+    } */
+
+    //console.log(arr4.reverse()); //переворачивает массив
+
+   /*  let str = 'zxc, vbn, asd, fgh, jkl';
+    console.log(str);
+    let arrayListName = str.split(', '); //преобразование стр в м
+    console.log(arrayListName); */
+
+    //0. определить индекс эл в м, убрать его и вернуть обратно стр
+    /* let index = arrayListName.indexOf('asd');
+    console.log(index);
+    arrayListName.splice(index, 1);
+    console.log(arrayListName);
+    console.log(arrayListName.join(', ')); */
+
+    /* let str = 'zxc, vbn, asd, fgh, jkl';
+    console.log(str);
+    let arrayListName = str.split(', '); 
+    console.log(arrayListName);
+    console.log(arrayListName.sort()); //расставляет в алф порядке
+    
+    let arrNum = [2, 13, 26, 8, 10];
+    console.log(arrNum);
+    console.log(arrNum.sort()); */
+
+
+
+    //1. 
+
+    let arr = [];
+    for (let i = 0; i < 10; i++) {
+        let value = +prompt('введите число');
+        arr.push(value);
+
+    }
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 == 0) {
+            console.log(arr[i]);
+        }
+    }
+
+    console.log(arr);
+
+    //мышка
+    </script>
+</body>
+</html>
